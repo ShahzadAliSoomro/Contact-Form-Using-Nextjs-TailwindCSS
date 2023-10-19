@@ -44,22 +44,19 @@ export default function ContactForm() {
             </div>
 
             <div className="flex flex-col gap-2">
-            <label
-              htmlFor="shipping"
-              className="text-lg font-semibold"
-            >
-              Service
-            </label>
-            <select
-              id="shipping"
-              className="border-2 w-full lg:w-[600px] border-black p-2"
-            >
-              <option selected>Select a Service</option>
-              <option value="DAE">Movers and Packers</option>
-              <option value="DAE">House Shifting</option>
-              <option value="DAE">Domestic Shifting</option>
-              <option value="DAE">Office Shifting</option>
-            </select>
+              <label htmlFor="shipping" className="text-lg font-semibold">
+                Service
+              </label>
+              <select
+                id="shipping"
+                className="border-2 w-full lg:w-[600px] border-black p-2"
+              >
+                <option selected>Select a Service</option>
+                <option value="DAE">Movers and Packers</option>
+                <option value="DAE">House Shifting</option>
+                <option value="DAE">Domestic Shifting</option>
+                <option value="DAE">Office Shifting</option>
+              </select>
             </div>
             <div className="flex flex-col gap-2">
               <label htmlFor="Message" className="text-lg font-semibold">
@@ -72,7 +69,9 @@ export default function ContactForm() {
               />
             </div>
             <div className="flex justify-center">
-              <button className="bg-black w-full lg:w-[600px] text-white p-2 font-semibold py-3 rounded-lg">Submit</button>
+              <button className="bg-black w-full lg:w-[600px] text-white p-2 font-semibold py-3 rounded-lg">
+                Submit
+              </button>
             </div>
           </div>
         </div>
